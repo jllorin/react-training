@@ -1,10 +1,10 @@
-import React from 'react'
-import Footer from './footer';
-function Detail()
+import React, { ReactNode } from 'react'
+
+function Detail({children}: any)
 {
     return <div>
         Detail
-        <Footer />
+        {children}
     </div>;
 }
 

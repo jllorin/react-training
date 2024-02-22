@@ -1,10 +1,9 @@
 import React from 'react'
-import Button from './button';
-function Footer()
+function Footer({children}: any)
 {
     return <div>
         Footer
-        <Button />
+        {children}
     </div>;
 }
 
