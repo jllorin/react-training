@@ -14,12 +14,12 @@ function App() {
       setNumber(number + myInitial.addWith);
     }    
     setFullName(`${myInitial.firstName} ${lastName}`)
-    alert(`${fullName} is adding ${myInitial.addWith} ${myInitial.noOfTimes} times = ${number}`);        
+    alert(`${fullName} is adding ${myInitial.addWith} to the number ${myInitial.noOfTimes} times = ${number}`);        
   }
 
   return <div>
       <div style={{padding: "10px", background: "yellow"}}>
-        {`${fullName} is adding ${myInitial.addWith} ${myInitial.noOfTimes} times = ${number}`}
+        {`${fullName} is adding ${myInitial.addWith} to the number ${myInitial.noOfTimes} times = ${number}`}
       </div>
       <div>
         Firstname: <input type="text" value={myInitial.firstName} />
