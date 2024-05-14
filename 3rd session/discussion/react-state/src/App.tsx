@@ -9,8 +9,8 @@ function App() {
   const [relationship, setRelationship] = useState("daughter");    
 
   const onClick = (e: any) => {
-    e.preventDefault();
-    setRelationship("son");
+    e.preventDefault();    
+    setRelationship(relationship === "son" ? "daughter" : "son");
   }
 
   return <div>
